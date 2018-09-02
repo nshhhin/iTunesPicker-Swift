@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2EC15D213C3C6B0070CE66 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC145213C3B510070CE66 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F2EC15F213C3C6B0070CE66 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC143213C3B510070CE66 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F2EC161213C3C6B0070CE66 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC146213C3B510070CE66 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F2EC163213C3C6B0070CE66 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC142213C3B510070CE66 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F2EC165213C3C6B0070CE66 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC144213C3B510070CE66 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F38F39E212FA993005494DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F39D212FA993005494DA /* AppDelegate.swift */; };
 		3F38F3A0212FA993005494DA /* SearchiTunesMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F39F212FA993005494DA /* SearchiTunesMusicVC.swift */; };
 		3F38F3A3212FA993005494DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F38F3A1212FA993005494DA /* Main.storyboard */; };
@@ -29,6 +24,16 @@
 		3F38F3E7212FBD03005494DA /* SearchiTunesMusic+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F3E6212FBD03005494DA /* SearchiTunesMusic+UICollectionViewDelegateFlowLayout.swift */; };
 		3F38F3E9212FBD60005494DA /* SearchiTunesMusic+UISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F3E8212FBD60005494DA /* SearchiTunesMusic+UISearchBarDelegate.swift */; };
 		3FE2840E2136E99100FD645D /* iTunesRSSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2840D2136E99100FD645D /* iTunesRSSModel.swift */; };
+		F3E5196C213C41C10070EEC5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC145213C3B510070CE66 /* Alamofire.framework */; };
+		F3E5196D213C41C10070EEC5 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC145213C3B510070CE66 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3E5196E213C41C10070EEC5 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC143213C3B510070CE66 /* AlamofireImage.framework */; };
+		F3E5196F213C41C10070EEC5 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC143213C3B510070CE66 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3E51970213C41C10070EEC5 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC146213C3B510070CE66 /* ObjectMapper.framework */; };
+		F3E51971213C41C10070EEC5 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC146213C3B510070CE66 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3E51972213C41C10070EEC5 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC142213C3B510070CE66 /* PromiseKit.framework */; };
+		F3E51973213C41C10070EEC5 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC142213C3B510070CE66 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3E51974213C41C10070EEC5 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC144213C3B510070CE66 /* SwiftyJSON.framework */; };
+		F3E51975213C41C10070EEC5 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2EC144213C3B510070CE66 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,17 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3F2EC166213C3C6B0070CE66 /* Embed Frameworks */ = {
+		F3E51976213C41C10070EEC5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3F2EC161213C3C6B0070CE66 /* ObjectMapper.framework in Embed Frameworks */,
-				3F2EC15D213C3C6B0070CE66 /* Alamofire.framework in Embed Frameworks */,
-				3F2EC15F213C3C6B0070CE66 /* AlamofireImage.framework in Embed Frameworks */,
-				3F2EC163213C3C6B0070CE66 /* PromiseKit.framework in Embed Frameworks */,
-				3F2EC165213C3C6B0070CE66 /* SwiftyJSON.framework in Embed Frameworks */,
+				F3E51971213C41C10070EEC5 /* ObjectMapper.framework in Embed Frameworks */,
+				F3E5196D213C41C10070EEC5 /* Alamofire.framework in Embed Frameworks */,
+				F3E5196F213C41C10070EEC5 /* AlamofireImage.framework in Embed Frameworks */,
+				F3E51973213C41C10070EEC5 /* PromiseKit.framework in Embed Frameworks */,
+				F3E51975213C41C10070EEC5 /* SwiftyJSON.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +112,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E51970213C41C10070EEC5 /* ObjectMapper.framework in Frameworks */,
+				F3E5196C213C41C10070EEC5 /* Alamofire.framework in Frameworks */,
+				F3E5196E213C41C10070EEC5 /* AlamofireImage.framework in Frameworks */,
+				F3E51972213C41C10070EEC5 /* PromiseKit.framework in Frameworks */,
+				F3E51974213C41C10070EEC5 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +260,7 @@
 				3F38F397212FA993005494DA /* Frameworks */,
 				3F38F398212FA993005494DA /* Resources */,
 				3F38F3DF212FB8AF005494DA /* Run Script */,
-				3F2EC166213C3C6B0070CE66 /* Embed Frameworks */,
+				F3E51976213C41C10070EEC5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
